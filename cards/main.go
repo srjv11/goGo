@@ -1,14 +1,8 @@
 package main
 
-import "fmt"
-
 func main() {
 
-	cards := newCards()
-	fmt.Println(cards)
+	cards := newDeck()
+	cards.saveToFile("my_cards.txt")
 
-}
-
-func newCards() string {
-	return "Five of Diamonds"
 }

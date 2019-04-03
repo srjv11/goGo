@@ -53,4 +53,6 @@ func readFromFile(filename string) deck {
 		fmt.Println("Error: ", err)
 		os.Exit(1)
 	}
+
+	return strings.Split(string(bs), ",")
 }

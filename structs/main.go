@@ -42,8 +42,8 @@ func main() {
 	// fmt.Printf("%+v", alex)
 	fmt.Printf("%+v\n", alex2)
 
-	alexpointer := &alex
-	alexpointer.updateFirstName("Alexander")
+	//alexpointer := &alex
+	alex.updateFirstName("Alexander")
 	alex.print()
 }
 
